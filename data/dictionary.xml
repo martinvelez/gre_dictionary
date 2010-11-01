@@ -1,8 +1,26 @@
 <dictionary>
 	<word>
-		<name></name>
-		<pos></pos>
-		<def></def>
-		<sentence></sentence>
+		<name>abase</name>
+		<pos>v</pos>
+		<defn>lower; degrade; humiliate</defn>
+		<sentence>Anna expected to have to curtsy to the King of Siam; when told to cast herself down on the ground before him, however, she refused to abase herself.</sentence>
+	</word>
 	<word>
+		<name>abash</name>
+		<pos>v</pos>
+		<defn>embarrass</defn>
+		<sentence>He was not at all abashed by her open admiration.</sentence>
+	</word>
+	<word>
+		<name>abate</name>
+		<pos>v</pos>
+		<defn>subside or moderate</defn>
+		<sentence>Rather than leaving immediately, they waited for the storm to abate.</sentence>
+	</word>
+	<word>
+		<name>abbreviate</name>
+		<pos>v</pos>
+		<defn>shorten</defn>
+		<sentence>Because we were running out of time, the lecturer had to abbreviate her speech.</sentence>
+	</word>
 </dictionary>
