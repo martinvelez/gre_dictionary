@@ -246,4 +246,112 @@
     <defn>applaud; announce with great approval</defn>
     <sentence>The sportscasters acclaimed every American victory in the Olympics and decried every American defeat.</sentence>
   </word>
-<word><name>acclimate</name><pos>v</pos><defn>adjust to climate or environment; adapt</defn><sentence>One of the difficulties of our present air age is the need of travelers to acclimate themselves to their new and often strange environments.</sentence></word><word><name>acclivity</name><pos>n</pos><defn>sharp upslope of a hill</defn><sentence>The car could not go up the acclivity in high gear.</sentence></word><word><name>accolade</name><pos>n</pos><defn>award of merit</defn><sentence>In Hollywood, an &quot;Oscar&quot; is the highest accolade.</sentence></word><word><name>accommodate</name><pos>v</pos><defn>oblige or help someone; adjust or bring into harmony; adapt</defn><sentence>Mitch always did everything possible to accommodate his elderly relatives, from driving them to medical appointments to helping them with paperwork.</sentence></word><word><name>accomplice</name><pos>n</pos><defn>partner in crime</defn><sentence>Because he had provided the criminal with the lethal weapon, he was arrested as an accomplice in the murder.</sentence></word></dictionary>
+  <word>
+    <name>acclimate</name>
+    <pos>v</pos>
+    <defn>adjust to climate or environment; adapt</defn>
+    <sentence>One of the difficulties of our present air age is the need of travelers to acclimate themselves to their new and often strange environments.</sentence>
+  </word>
+  <word>
+    <name>acclivity</name>
+    <pos>n</pos>
+    <defn>sharp upslope of a hill</defn>
+    <sentence>The car could not go up the acclivity in high gear.</sentence>
+  </word>
+  <word>
+    <name>accolade</name>
+    <pos>n</pos>
+    <defn>award of merit</defn>
+    <sentence>In Hollywood, an "Oscar" is the highest accolade.</sentence>
+  </word>
+  <word>
+    <name>accommodate</name>
+    <pos>v</pos>
+    <defn>oblige or help someone; adjust or bring into harmony; adapt</defn>
+    <sentence>Mitch always did everything possible to accommodate his elderly relatives, from driving them to medical appointments to helping them with paperwork.</sentence>
+  </word>
+  <word>
+    <name>accomplice</name>
+    <pos>n</pos>
+    <defn>partner in crime</defn>
+    <sentence>Because he had provided the criminal with the lethal weapon, he was arrested as an accomplice in the murder.</sentence>
+  </word>
+  <word>
+    <name>accord</name>
+    <pos>n</pos>
+    <defn>agreement</defn>
+    <sentence>She was in complete accord with the verdict.</sentence>
+  </word>
+  <word>
+    <name>accost</name>
+    <pos>v</pos>
+    <defn>approach and speak first to a person</defn>
+    <sentence>When the two young men accosted me, I was frightened because I thought they were going to attack me.</sentence>
+  </word>
+  <word>
+    <name>accoutre</name>
+    <pos>v</pos>
+    <defn>equip</defn>
+    <sentence>The fisherman was accoutred with the best that the sporting goods store could supply.</sentence>
+  </word>
+  <word>
+    <name>accretion</name>
+    <pos>n</pos>
+    <defn>growth; increase</defn>
+    <sentence>Over the years Bob put on weight; because of this accretion of flesh, he went from size M to size XL.</sentence>
+  </word>
+  <word>
+    <name>accrue</name>
+    <pos>v</pos>
+    <defn>come about by addition</defn>
+    <sentence>You must pay the interest that has accrued on your debt as well as the principal sum.</sentence>
+  </word>
+  <word>
+    <name>acerbic</name>
+    <pos>adj</pos>
+    <defn>bitter or sour in nature; sharp and cutting</defn>
+    <sentence>Noted for her acerbic with and gossiping.  Alice Roosevelt Longworth had a pillow in her home embroidered with the legend "If you can't say something good about someone, sit right here by me."</sentence>
+  </word>
+  <word>
+    <name>acerbity</name>
+    <pos>n</pos>
+    <defn>bitterness of speech and temper</defn>
+    <sentence>The meeting of the United Nations Assembly was marked with such acerbity that observers held little hope of reaching any useful settlement of the problem.</sentence>
+  </word>
+  <word>
+    <name>acetic</name>
+    <pos>adj</pos>
+    <defn>vinegary</defn>
+    <sentence>The salad had an exceedingly acetic flavor.</sentence>
+  </word>
+  <word>
+    <name>acidulous</name>
+    <pos>adj</pos>
+    <defn>slightly sour; sharp; caustic</defn>
+    <sentence>James was unpopular because of his sarcastic and acidulous remarks.</sentence>
+  </word>
+  <word>
+    <name>acknowledge</name>
+    <pos>v</pos>
+    <defn>recognize; admit</defn>
+    <sentence>Although I acknowledge that the Beatles' tunes sounds pretty dated nowadays, I still prefer them to the gangsta rap songs my brothers play.</sentence>
+  </word>
+  <word>
+    <name>acme</name>
+    <pos>n</pos>
+    <defn>peak; pinnacle; highest point</defn>
+    <sentence>Welles's success in Citizen kane marked the acme of his career as an actor; never again did he achieve such popular acclaim.</sentence>
+  </word>
+  <word>
+    <name>acoustics</name>
+    <pos>n</pos>
+    <defn>science of sounds; quality that makes a room easy or hard to hear in</defn>
+    <sentence>Carnegie Hall is liked by music lovers because of its fine acoustics.</sentence>
+  </word>
+  <word>
+    <name>acquiesce</name>
+    <pos>v</pos>
+    <defn>assent; agree passively</defn>
+    <sentence>Although she appeared to acquiesce to her employer's suggestings, I could tell she had reservations about the changes he wanted made.</sentence>
+  </word>
+<word><name>acquittal</name><pos>n</pos><defn>deliverance from a charge</defn><sentence>His acquittal by the jury surprised those who had thought him guilty.</sentence></word><word><name>acrid</name><pos>adj</pos><defn>sharp; bitterly pungent</defn><sentence>The acrid odor of burnt gunpowder filled the room after the pistol had been fired.</sentence></word><word><name>acrimonious</name><pos>adj</pos><defn>bitter in words or manner</defn><sentence>The candidate attacked his opponent in highly acrimonious temrs.</sentence></word><word><name>acrophobia</name><pos>n</pos><defn>fear of heights</defn><sentence>A born salesman, he could convince someone with a bad case of acrophobia to sign up for a life memberhship in a sky-diving club.</sentence></word><word><name>actuarial</name><pos>adj</pos><defn>calculating; pertaining to insurance statistics</defn><sentence>Accordign to recent actuarial tables, life expectancy  is greater today than it was a century ago.</sentence></word><word><name>actuate</name><pos>v</pos><defn>motivate</defn><sentence>I fail to understand what actuated you to reply to this letter so nastily.</sentence></word><word><name>accumen</name><pos>n</pos><defn>mental keenness</defn><sentence>Her business acumen helped her to succeed where others had failed.</sentence></word><word><name>acute</name><pos>adj</pos><defn>quickly perceptive; keen; brief and severe</defn><sentence>The acute young doctor realized immediately that the gradual deterioration of her patient&apos;s once-acute hearing was due to a chronic illness, not an acute one.</sentence></word></dictionary>
