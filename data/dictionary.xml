@@ -1,4 +1,4 @@
-<?xml version='1.0'?>
+<?xml version="1.0"?>
 <dictionary>
   <word>
     <name>abase</name>
@@ -354,4 +354,154 @@
     <defn>assent; agree passively</defn>
     <sentence>Although she appeared to acquiesce to her employer's suggestings, I could tell she had reservations about the changes he wanted made.</sentence>
   </word>
-<word><name>acquittal</name><pos>n</pos><defn>deliverance from a charge</defn><sentence>His acquittal by the jury surprised those who had thought him guilty.</sentence></word><word><name>acrid</name><pos>adj</pos><defn>sharp; bitterly pungent</defn><sentence>The acrid odor of burnt gunpowder filled the room after the pistol had been fired.</sentence></word><word><name>acrimonious</name><pos>adj</pos><defn>bitter in words or manner</defn><sentence>The candidate attacked his opponent in highly acrimonious temrs.</sentence></word><word><name>acrophobia</name><pos>n</pos><defn>fear of heights</defn><sentence>A born salesman, he could convince someone with a bad case of acrophobia to sign up for a life memberhship in a sky-diving club.</sentence></word><word><name>actuarial</name><pos>adj</pos><defn>calculating; pertaining to insurance statistics</defn><sentence>Accordign to recent actuarial tables, life expectancy  is greater today than it was a century ago.</sentence></word><word><name>actuate</name><pos>v</pos><defn>motivate</defn><sentence>I fail to understand what actuated you to reply to this letter so nastily.</sentence></word><word><name>accumen</name><pos>n</pos><defn>mental keenness</defn><sentence>Her business acumen helped her to succeed where others had failed.</sentence></word><word><name>acute</name><pos>adj</pos><defn>quickly perceptive; keen; brief and severe</defn><sentence>The acute young doctor realized immediately that the gradual deterioration of her patient&apos;s once-acute hearing was due to a chronic illness, not an acute one.</sentence></word></dictionary>
+  <word>
+    <name>acquittal</name>
+    <pos>n</pos>
+    <defn>deliverance from a charge</defn>
+    <sentence>His acquittal by the jury surprised those who had thought him guilty.</sentence>
+  </word>
+  <word>
+    <name>acrid</name>
+    <pos>adj</pos>
+    <defn>sharp; bitterly pungent</defn>
+    <sentence>The acrid odor of burnt gunpowder filled the room after the pistol had been fired.</sentence>
+  </word>
+  <word>
+    <name>acrimonious</name>
+    <pos>adj</pos>
+    <defn>bitter in words or manner</defn>
+    <sentence>The candidate attacked his opponent in highly acrimonious temrs.</sentence>
+  </word>
+  <word>
+    <name>acrophobia</name>
+    <pos>n</pos>
+    <defn>fear of heights</defn>
+    <sentence>A born salesman, he could convince someone with a bad case of acrophobia to sign up for a life memberhship in a sky-diving club.</sentence>
+  </word>
+  <word>
+    <name>actuarial</name>
+    <pos>adj</pos>
+    <defn>calculating; pertaining to insurance statistics</defn>
+    <sentence>Accordign to recent actuarial tables, life expectancy  is greater today than it was a century ago.</sentence>
+  </word>
+  <word>
+    <name>actuate</name>
+    <pos>v</pos>
+    <defn>motivate</defn>
+    <sentence>I fail to understand what actuated you to reply to this letter so nastily.</sentence>
+  </word>
+  <word>
+    <name>accumen</name>
+    <pos>n</pos>
+    <defn>mental keenness</defn>
+    <sentence>Her business acumen helped her to succeed where others had failed.</sentence>
+  </word>
+  <word>
+    <name>acute</name>
+    <pos>adj</pos>
+    <defn>quickly perceptive; keen; brief and severe</defn>
+    <sentence>The acute young doctor realized immediately that the gradual deterioration of her patient's once-acute hearing was due to a chronic illness, not an acute one.</sentence>
+  </word>
+  <word>
+    <name>adage</name>
+    <pos>n</pos>
+    <defn>wise saying; proverb</defn>
+    <sentence>There is much truth in the old adage aobout fools and their money.</sentence>
+  </word>
+  <word>
+    <name>adamant</name>
+    <pos>adj</pos>
+    <defn>hard; inflexible</defn>
+    <sentence>In this movie Bronson played the part of a revenge-driven man, adamant in his determination to punish the criminals who destroyed his family.</sentence>
+  </word>
+  <word>
+    <name>adapt</name>
+    <pos>v</pos>
+    <defn>alter; modify</defn>
+    <sentence>Some species of animals have become extinct because they could not adapt to a changing environment.</sentence>
+  </word>
+  <word>
+    <name>addendum</name>
+    <pos>n</pos>
+    <defn>addition; appendix to book</defn>
+    <sentence>Jane's editor approved her new comparative literature text but thought it would be even better with an addendum on recent developments in literary crticism.</sentence>
+  </word>
+  <word>
+    <name>addiction</name>
+    <pos>n</pos>
+    <defn>compulsive, habitual need</defn>
+    <sentence>His addiction to drugs caused his friends much grief.</sentence>
+  </word>
+  <word>
+    <name>addle</name>
+    <pos>v</pos>
+    <defn>muddle; drive crazy; become rotten</defn>
+    <sentence>This idiotic plan is confusing enough to addle anyone.</sentence>
+  </word>
+  <word>
+    <name>address</name>
+    <pos>v</pos>
+    <defn>direct a speech to; deal with or discuss</defn>
+    <sentence>Due to address the convention in July, Brown planned to address the issue of low-income housing in his speech.</sentence>
+  </word>
+  <word>
+    <name>adept</name>
+    <pos>adj</pos>
+    <defn>expert at</defn>
+    <sentence>She was adept at the fine art of irritating people.</sentence>
+  </word>
+  <word>
+    <name>adhere</name>
+    <pos>v</pos>
+    <defn>stick fast</defn>
+    <sentence>I will adhere to this opinion until proof that I am wrong is presented.</sentence>
+  </word>
+  <word>
+    <name>adherent</name>
+    <pos>n</pos>
+    <defn>supporter; follower</defn>
+    <sentence>In the wake of the scandal, the senator's one-time adherents quietly deserted him.</sentence>
+  </word>
+  <word>
+    <name>adjacent</name>
+    <pos>adj</pos>
+    <defn>adjoining; neighboring; close by</defn>
+    <sentence>Philip's best friend Jason lived only four houses down the block, near but not immediately adjacent.</sentence>
+  </word>
+  <word>
+    <name>adjunct</name>
+    <pos>n</pos>
+    <defn>something (generally nonessential or inferior) added on or attached</defn>
+    <sentence>Although I don't absolutely need a second computer, I plan to buy a laptop to serve as an adjunct to my desktop model.</sentence>
+  </word>
+  <word>
+    <name>adjuration</name>
+    <pos>n</pos>
+    <defn>solemn urging</defn>
+    <sentence>Her adjuration to tell the truth did not change the witnesses' testimony.</sentence>
+  </word>
+  <word>
+    <name>adjutant</name>
+    <pos>n</pos>
+    <defn>staff officer assisting the commander; assistant</defn>
+    <sentence>Though Wellington delegated many tasks to his chief adjutant, Lord Fitzroy Somerset, Somerset was in no doubt as to who made all major decisions.</sentence>
+  </word>
+  <word>
+    <name>admonish</name>
+    <pos>v</pos>
+    <defn>warn; reprove</defn>
+    <sentence>When her courtiers questioned her religious beliefs, Mary Stuart admonished them, declaring that she would worship as she pleased.</sentence>
+  </word>
+  <word>
+    <name>adorn</name>
+    <pos>v</pos>
+    <defn>decorate</defn>
+    <sentence>Wall paintings and carved statues adorned the temple.</sentence>
+  </word>
+  <word>
+    <name>adroit</name>
+    <pos>adj</pos>
+    <defn>skillful</defn>
+    <sentence>Her adroit handling of the delicate situation pleased her employers.</sentence>
+  </word>
+</dictionary>
