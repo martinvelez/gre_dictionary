@@ -34,10 +34,10 @@ class Dictionary
 	end
 	
 	def random_word
-		words[rand(words.size)].display
+		words[rand(words.size)]
 	end
 
-	def count
+	def size
 		words.size
 	end
 

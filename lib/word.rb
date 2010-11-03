@@ -4,14 +4,12 @@ class Word
 	attr_accessor :name, :pos, :defn, :sentence
 
 	def display
-		puts "=" * 80
-		puts @name
-		puts @pos
-		puts @defn
-		puts @sentence
-		puts "=" * 80
-		puts "Press any key to continue..."
-		key = STDIN.gets
+		puts "-" * 80
+		puts "# " + @name
+		puts "# " + @pos
+		puts "# " + @defn
+		puts "# " + @sentence
+		puts "-" * 80
 	end
 	
 end

@@ -32,7 +32,7 @@ class RunDictionary
 		@arguments = arguments		
 		# Set defaults
 		@opt_parser = nil
-		@options = {:help=>false,:verbose=>false,:quiet=>false}
+		@options = {:help=>false,:verbose=>false,:quiet=>false,:getword=>false,:random=>false,:count=>false}
 		@dict_path = nil
 	end
 
@@ -62,6 +62,13 @@ class RunDictionary
 			end
 			opts.on('-V', '--verbose', 'Run verbosely') { @options[:verbose] = true }
 			opts.on('-q', '--quiet', 'Run quietly') { @options[:quiet] = true }
+			opts.on('-g', "--get WORD", 'Get a WORD') do |word|
+				@options[:getword] = true
+				@options[:word] = word
+				 
+			end
+			opts.on('-r', '--random', 'Get a random word') { @options[:random] = true }
+			opts.on('-c', '--count', 'Get count of words in dictionary') { @options[:count] = true }
 		end
 	
 		@opt_parser.parse!(@arguments) rescue return false
@@ -83,6 +90,7 @@ class RunDictionary
 	# For instance, some options may cancel others or have higher importance
 	def process_options
 		@options[:verbose] = false if @options[:quiet]
+		@options[:getword] = false if @options[:random]
 	end
 
 	# Setup the arguments
@@ -95,32 +103,16 @@ class RunDictionary
 	end
 
 	# Application logic
-	def process_command				
-		puts "Running Command:" if @options[:verbose]
-		d = Dictionary.new(@dict_path)		
-		puts "Dictionary has been loaded."
-		puts "Total Words = #{d.count}"
-		menu = "Choose option:
-1. Get word
-2. Get random word
-3. Add word
-4. Get word count"
-		begin
-			puts menu
-			option = STDIN.gets.chomp.to_i
-			puts "option selected = #{option}"
-			case option
-			when 1
-				print "Enter word: "
-				word = STDIN.gets.chomp
-				d.word(word)		
-			when 2
-				puts "Random word:"
-				d.random_word
-			when 3
-			when 4: puts "Total words = #{d.count}"
-			end
-		end while option != 99
+	def process_command
+		d = Dictionary.new(@dict_path)
+		if @options[:verbose]
+			puts "Dictionary has been loaded."
+			puts "Total Words = #{d.size}"	
+		end
+
+		d.random_word.display if @options[:random]
+		d.word(@options[:word]) if @options[:getword]
+		puts d.size if @options[:count]
 		exit 0
 	end
 
