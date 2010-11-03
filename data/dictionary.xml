@@ -1,26 +1,249 @@
+<?xml version='1.0'?>
 <dictionary>
-	<word>
-		<name>abase</name>
-		<pos>v</pos>
-		<defn>lower; degrade; humiliate</defn>
-		<sentence>Anna expected to have to curtsy to the King of Siam; when told to cast herself down on the ground before him, however, she refused to abase herself.</sentence>
-	</word>
-	<word>
-		<name>abash</name>
-		<pos>v</pos>
-		<defn>embarrass</defn>
-		<sentence>He was not at all abashed by her open admiration.</sentence>
-	</word>
-	<word>
-		<name>abate</name>
-		<pos>v</pos>
-		<defn>subside or moderate</defn>
-		<sentence>Rather than leaving immediately, they waited for the storm to abate.</sentence>
-	</word>
-	<word>
-		<name>abbreviate</name>
-		<pos>v</pos>
-		<defn>shorten</defn>
-		<sentence>Because we were running out of time, the lecturer had to abbreviate her speech.</sentence>
-	</word>
-</dictionary>
+  <word>
+    <name>abase</name>
+    <pos>v</pos>
+    <defn>lower; degrade; humiliate</defn>
+    <sentence>Anna expected to have to curtsy to the King of Siam; when told to cast herself down on the ground before him, however, she refused to abase herself.</sentence>
+  </word>
+  <word>
+    <name>abash</name>
+    <pos>v</pos>
+    <defn>embarrass</defn>
+    <sentence>He was not at all abashed by her open admiration.</sentence>
+  </word>
+  <word>
+    <name>abate</name>
+    <pos>v</pos>
+    <defn>subside or moderate</defn>
+    <sentence>Rather than leaving immediately, they waited for the storm to abate.</sentence>
+  </word>
+  <word>
+    <name>abbreviate</name>
+    <pos>v</pos>
+    <defn>shorten</defn>
+    <sentence>Because we were running out of time, the lecturer had to abbreviate her speech.</sentence>
+  </word>
+  <word>
+    <name>abdicate</name>
+    <pos>v</pos>
+    <defn>renounce; give up</defn>
+    <sentence>When Edward VIII abdicated the British throne, he surprised the entire world.</sentence>
+  </word>
+  <word>
+    <name>aberrant</name>
+    <pos>adj</pos>
+    <defn>abnormal or deviant</defn>
+    <sentence>Given the aberrant nature of the data, we came to doubt the validity of the entire experiment.</sentence>
+  </word>
+  <word>
+    <name>aberration</name>
+    <pos>n</pos>
+    <defn>abnormality; departure from the norm; mental irregularity or disorder</defn>
+    <sentence>It remains the consensus among investors on Wall Street that current high oil prices are a temporary aberration and that we shall soon see a return to cheap oil.</sentence>
+  </word>
+  <word>
+    <name>abet</name>
+    <pos>v</pos>
+    <defn>assist, usually in doing somethign wrong; encourage</defn>
+    <sentence>She was unwilling to abet him in the swindle he had planned.</sentence>
+  </word>
+  <word>
+    <name>abeyance</name>
+    <pos>n</pos>
+    <defn>suspended action</defn>
+    <sentence>The deal was held in abeyance until her arrival.</sentence>
+  </word>
+  <word>
+    <name>abhor</name>
+    <pos>v</pos>
+    <defn>detest; hate</defn>
+    <sentence>She abhorred all forms of bigotry.</sentence>
+  </word>
+  <word>
+    <name>abject</name>
+    <pos>adj</pos>
+    <defn>wretched; lacking pride</defn>
+    <sentence>On the streets of New York the homeless live in abject poverty, huddling in doorways to find shelter from the wind.</sentence>
+  </word>
+  <word>
+    <name>abjure</name>
+    <pos>v</pos>
+    <defn>renounce upon oath; disavow</defn>
+    <sentence>Pressure from university authorities caused the young scholar to abjure his heretical opinions.</sentence>
+  </word>
+  <word>
+    <name>ablution</name>
+    <pos>n</pos>
+    <defn>washing</defn>
+    <sentence>His daily ablutions were accompanied by loud noises that he humorously labeled "Opera in the Bath."</sentence>
+  </word>
+  <word>
+    <name>abnegation</name>
+    <pos>n</pos>
+    <defn>renunciation; self-sacrifice</defn>
+    <sentence>Though Rudolph and Duchess Flavia loved one another, their love was doomed, for she had to wed the king; their act of abnegation was necessary to preserve th kingdom.</sentence>
+  </word>
+  <word>
+    <name>abolish</name>
+    <pos>v</pos>
+    <defn>cancel; put an end to</defn>
+    <sentence>The president of the college refused to abolish the physical education requirement.</sentence>
+  </word>
+  <word>
+    <name>abominable</name>
+    <pos>adj</pos>
+    <defn>detestable; extremely unpleasant; very bad</defn>
+    <sentence>Mary liked John until she learned he was also dating Susan; then she called him an abominable young man, with abominable taste in women.</sentence>
+  </word>
+  <word>
+    <name>abominate</name>
+    <pos>v</pos>
+    <defn>loathe; hate</defn>
+    <sentence>Moses scolded the idol worshippers in the tribe because he abominated the custom.</sentence>
+  </word>
+  <word>
+    <name>aboriginal</name>
+    <pos>adj</pos>
+    <defn>being the first of its kind in a region; primitive; native</defn>
+    <sentence>Her studies of the primitive art forms of the aboriginal indians were widely reported in the scientific journals.</sentence>
+  </word>
+  <word>
+    <name>abortive</name>
+    <pos>adj</pos>
+    <defn>unsuccessful; fruitless</defn>
+    <sentence>Attacked by armed troops, the Chinese students had to abandon their abortive attempt to democratize Beijing peacefully.</sentence>
+  </word>
+  <word>
+    <name>abrasive</name>
+    <pos>adj</pos>
+    <defn>rubbing away; tending to grind down</defn>
+    <sentence>Just as abrasive cleaning powders can wear away a shiny finish, abrasive remarks can wear away a listener's patience.</sentence>
+  </word>
+  <word>
+    <name>abridge</name>
+    <pos>v</pos>
+    <defn>condense or shorten</defn>
+    <sentence>Because the publishers felt the public wanted a shorter version of War and Peace, they proceeded to abridge the novel.</sentence>
+  </word>
+  <word>
+    <name>abrogate</name>
+    <pos>v</pos>
+    <defn>abolish</defn>
+    <sentence>The king intended to abrogate the decree issued by his predecessor.</sentence>
+  </word>
+  <word>
+    <name>abscission</name>
+    <pos>n</pos>
+    <defn>removal by cutting off, as in surgery; separation</defn>
+    <sentence>Gas gangrene spreads so swiftly and is so potentially deadly that doctors advise abscission of teh gangrenous tissue. When a flower or leaf separates naturally from the parent plant, this process is called abscission or leaf fall.</sentence>
+  </word>
+  <word>
+    <name>abscond</name>
+    <pos>v</pos>
+    <defn>depart secretly and hide</defn>
+    <sentence>The teller who absconded with the bonds went uncaptured until someone recognized him from his photograph on America's Most Wanted.</sentence>
+  </word>
+  <word>
+    <name>absolute</name>
+    <pos>adj</pos>
+    <defn>complete; totally unlimited; certain</defn>
+    <sentence>Although the King of Siam was an absolute monarch, he did not watn to behead his unfaithful wife without absolute evidence of her infidelity.</sentence>
+  </word>
+  <word>
+    <name>absolve</name>
+    <pos>v</pos>
+    <defn>pardon (an offense)</defn>
+    <sentence>The father confessor absolved him of his sins.</sentence>
+  </word>
+  <word>
+    <name>abstain</name>
+    <pos>v</pos>
+    <defn>refrain; withhold from participation</defn>
+    <sentence>After considering the effect of alcohol on his athletic performance, he decided to abstain from drinking while he trained for the race.</sentence>
+  </word>
+  <word>
+    <name>abstemious</name>
+    <pos>adj</pos>
+    <defn>sparing in eating and drinking; temperate</defn>
+    <sentence>Concerned whether her vegetarian son's abstemious diet provided him with sufficient protein, the worried mother pressed food on him.</sentence>
+  </word>
+  <word>
+    <name>abstinence</name>
+    <pos>n</pos>
+    <defn>restraint from eating or drinking</defn>
+    <sentence>The doctor recommended total abstinence from salted foods.</sentence>
+  </word>
+  <word>
+    <name>abstract</name>
+    <pos>adj</pos>
+    <defn>theoretical; not concrete; nonrepresentational</defn>
+    <sentence>To him, hunger was an abstract concept; he had never missed a meal.</sentence>
+  </word>
+  <word>
+    <name>abstruse</name>
+    <pos>adj</pos>
+    <defn>obscure; profound; difficult to understand</defn>
+    <sentence>Baffled by the abstruse philosophical texts assigned in class, Dave asked Lexy to explain Kant's Critique of Pure Reason.</sentence>
+  </word>
+  <word>
+    <name>abusive</name>
+    <pos>adj</pos>
+    <defn>coarsely insulting; physically harmful</defn>
+    <sentence>An abusive parent damages a child both mentally and physically.</sentence>
+  </word>
+  <word>
+    <name>abut</name>
+    <pos>v</pos>
+    <defn>border upon; adjoin</defn>
+    <sentence>Where our estates abut, we must build a fence.</sentence>
+  </word>
+  <word>
+    <name>abysmal</name>
+    <pos>adj</pos>
+    <defn>bottomless</defn>
+    <sentence>His arrogance is exceeded only by his abysmal ignorance.</sentence>
+  </word>
+  <word>
+    <name>abyss</name>
+    <pos>n</pos>
+    <defn>enormous chasm; vast, bottomless pit</defn>
+    <sentence>Darth Vader seized the evil emperor and hurled him into the abyss.</sentence>
+  </word>
+  <word>
+    <name>academic</name>
+    <pos>adj</pos>
+    <defn>related to a school; not practical or directly useful</defn>
+    <sentence>The dean's talk about reforming academic policies was only an academic discussion: we knew little, if anything, would change.</sentence>
+  </word>
+  <word>
+    <name>accede</name>
+    <pos>v</pos>
+    <defn>agree</defn>
+    <sentence>If I accede to this demand for black-mail, I am afraid that I will be th victim of future demands.</sentence>
+  </word>
+  <word>
+    <name>accelerate</name>
+    <pos>v</pos>
+    <defn>move faster</defn>
+    <sentence>In our science class, we learn how falling bodies accelerate.</sentence>
+  </word>
+  <word>
+    <name>accessible</name>
+    <pos>adj</pos>
+    <defn>easy to approach; obtainable</defn>
+    <sentence>We asked our guide whether the ruins were accessible on foot.</sentence>
+  </word>
+  <word>
+    <name>accessory</name>
+    <pos>n</pos>
+    <defn>additional object; useful but not essential thing</defn>
+    <sentence>She bought an attractive handbag as an accessory for her dress.</sentence>
+  </word>
+  <word>
+    <name>acclaim</name>
+    <pos>v</pos>
+    <defn>applaud; announce with great approval</defn>
+    <sentence>The sportscasters acclaimed every American victory in the Olympics and decried every American defeat.</sentence>
+  </word>
+<word><name>acclimate</name><pos>v</pos><defn>adjust to climate or environment; adapt</defn><sentence>One of the difficulties of our present air age is the need of travelers to acclimate themselves to their new and often strange environments.</sentence></word><word><name>acclivity</name><pos>n</pos><defn>sharp upslope of a hill</defn><sentence>The car could not go up the acclivity in high gear.</sentence></word><word><name>accolade</name><pos>n</pos><defn>award of merit</defn><sentence>In Hollywood, an &quot;Oscar&quot; is the highest accolade.</sentence></word><word><name>accommodate</name><pos>v</pos><defn>oblige or help someone; adjust or bring into harmony; adapt</defn><sentence>Mitch always did everything possible to accommodate his elderly relatives, from driving them to medical appointments to helping them with paperwork.</sentence></word><word><name>accomplice</name><pos>n</pos><defn>partner in crime</defn><sentence>Because he had provided the criminal with the lethal weapon, he was arrested as an accomplice in the murder.</sentence></word></dictionary>

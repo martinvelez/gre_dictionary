@@ -19,18 +19,33 @@ class Dictionary
 		end
 	end
 	
-	def add_word(word)
-		#word must be a word object
-		#check if word is already defined
+	#Assumes word does not already exist in dictionary
+	def add(word)
+		w = Element.new("word")
+		w.add_element("name")
+		w.elements["name"].text = word.name
+		w.add_element("pos")
+		w.elements["pos"].text = word.pos
+		w.add_element("defn")
+		w.elements["defn"].text = word.defn
+		w.add_element("sentence")
+		w.elements["sentence"].text = word.sentence
+		@xmldoc.root.elements << w
+		xmlfile = File.new(@dict_path, "w")
+		xmlfile.puts @xmldoc
+		true
 	end
 	
-	def word(word)
-		words.each do |w|
-			if w.name == word
-				w.display
+	def find(word)
+		index = -1
+		pos = 0
+		for pos in 0..(size-1)
+			if words[pos].name == word
+				index = pos
 				break
-			end	
+			end
 		end
+		index
 	end
 	
 	def random_word
@@ -39,6 +54,10 @@ class Dictionary
 
 	def size
 		words.size
+	end
+	
+	def get(index)
+		words[index]
 	end
 
 end

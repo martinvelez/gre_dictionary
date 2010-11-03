@@ -32,7 +32,7 @@ class RunDictionary
 		@arguments = arguments		
 		# Set defaults
 		@opt_parser = nil
-		@options = {:help=>false,:verbose=>false,:quiet=>false,:getword=>false,:random=>false,:count=>false}
+		@options = {:help=>false,:verbose=>false,:quiet=>false,:getword=>false,:random=>false,:count=>false,:add=>false}
 		@dict_path = nil
 	end
 
@@ -69,6 +69,7 @@ class RunDictionary
 			end
 			opts.on('-r', '--random', 'Get a random word') { @options[:random] = true }
 			opts.on('-c', '--count', 'Get count of words in dictionary') { @options[:count] = true }
+			opts.on('-a', '--add', 'Add a word') { @options[:add] = true }
 		end
 	
 		@opt_parser.parse!(@arguments) rescue return false
@@ -91,12 +92,11 @@ class RunDictionary
 	def process_options
 		@options[:verbose] = false if @options[:quiet]
 		@options[:getword] = false if @options[:random]
+		@options[:add] = false if @options[:random] or @options[:getword]
 	end
 
 	# Setup the arguments
 	def process_arguments
-		# If user provides the name of an engine which has not been registered,
-		# they will get a runtime error.  No need to raise error.
 		@dict_path = @arguments[0]		
 		raise("File does not exist or is not readable") unless File.exist?(@dict_path) and File.readable?(@dict_path)
 		return true
@@ -111,8 +111,25 @@ class RunDictionary
 		end
 
 		d.random_word.display if @options[:random]
-		d.word(@options[:word]) if @options[:getword]
+		if @options[:getword]
+			pos = d.find(@options[:word])
+			d.get(pos).display if (pos != -1)
+		end
 		puts d.size if @options[:count]
+		if @options[:add]
+			print "Enter word (leave blank to cancel): "
+			word = Word.new
+			word.name = STDIN.gets.chomp
+			if d.find(word.name) == -1 and word.name != ""
+				print "Enter pos: "
+				word.pos = STDIN.gets.chomp
+				print "Enter definition: "
+				word.defn = STDIN.gets.chomp
+				print "Enter sentence: "
+				word.sentence = STDIN.gets.chomp
+				puts "Word added!" if d.add(word)
+			end
+		end
 		exit 0
 	end
 
