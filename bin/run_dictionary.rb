@@ -25,7 +25,6 @@ require File.expand_path(File.join(File.dirname(__FILE__), "..", "lib", "diction
 
 # This class define a ruby application which runs a named obfuscation engine.
 class RunDictionary
-	attr_reader :dict_path
 	
 	# Initialization of this application requires the command line arguments.
 	def initialize(arguments)
@@ -33,7 +32,7 @@ class RunDictionary
 		# Set defaults
 		@opt_parser = nil
 		@options = {:help=>false,:verbose=>false,:quiet=>false,:getword=>false,:random=>false,:count=>false,:add=>false}
-		@dict_path = nil
+		@dict_path = "../data/dictionary.xml"
 	end
 
 	# Parse options, check arguments, then process the command
@@ -80,11 +79,15 @@ class RunDictionary
 
 	# True if required arguments were provided
 	def arguments_valid?
-		# TO DO - implement your real logic here
-		#does engine exist		
-		#does in_file exist
-		return false if @arguments.length != 1		
-		process_arguments
+		case @arguments.length
+		when 0
+			raise("File does not exist or is not readable") unless File.exist?(@dict_path) and File.readable?(@dict_path)
+			return true
+		when 1
+			return process_arguments
+		else
+			return false
+		end
 	end
 
 	# Performs post-parse processing on options
@@ -97,8 +100,10 @@ class RunDictionary
 
 	# Setup the arguments
 	def process_arguments
-		@dict_path = @arguments[0]		
-		raise("File does not exist or is not readable") unless File.exist?(@dict_path) and File.readable?(@dict_path)
+		if !@arguments[0].nil?
+			@dict_path = @arguments[0]
+			raise("File does not exist or is not readable") unless File.exist?(@dict_path) and File.readable?(@dict_path)
+		end
 		return true
 	end
 
