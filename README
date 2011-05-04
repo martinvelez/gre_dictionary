@@ -1,0 +1,18 @@
+GRE Dictionary
+
+Introduction
+The Graduate Record Examination (GRE) is an exam required by many graduate programs in the United States.
+
+It currently consists of three sections, analytical, quantitative, and verbal.  In order to do well in the verbal section, one must have a great vocabulary.
+
+Barron's has published a list of 3500 words it calls the Master List.
+
+This program contains that list and allows an user to study by providing a random word in the list
+
+USAGE Example
+To get a random word
+./bin/run_dictionary -r
+
+To get a specific word
+./bin/run_dictionary -g WORD
+
