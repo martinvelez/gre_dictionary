@@ -37,8 +37,7 @@ class Dictionary
 	end
 	
 	def find(word)
-		index = -1
-		pos = 0
+		index,pos = -1,0
 		for pos in 0..(size-1)
 			if words[pos].name == word
 				index = pos
@@ -48,16 +47,8 @@ class Dictionary
 		index
 	end
 	
-	def random_word
-		words[rand(words.size)]
-	end
-
-	def size
-		words.size
-	end
-	
-	def get(index)
-		words[index]
-	end
+	def random_word() words[rand(words.size)] end
+	def size() words.size	end
+	def get(index) words[index]	end
 
 end
